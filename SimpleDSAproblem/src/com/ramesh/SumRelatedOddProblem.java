@@ -28,6 +28,7 @@ public class SumRelatedOddProblem {
 			}
 		}
 		System.out.println(sum);
+		System.out.println("here is your answer:=>"+sum);
 		
 	}
 
