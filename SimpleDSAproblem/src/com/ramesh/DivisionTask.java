@@ -27,7 +27,16 @@ public class DivisionTask {
 		
 		res=fixNumberWhichwewantToDivide/number;
 		
-		System.out.print(res);
+		if(res<0) {
+			System.out.println("-1");
+			
+		}
+		else if(res==0) {
+			System.out.println("Too Low");
+		}
+		else {
+			System.out.println(res);
+		}
 		
 	}
 
