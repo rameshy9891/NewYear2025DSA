@@ -24,16 +24,18 @@ public class RameshSchoolHurray {
 			if(i%5==0 && i%7==0) {
 				System.out.println("Ramesh School");
 			}
-			if(i%7== 0) {
+			else if(i%7== 0) {
 				System.out.println("Ramesh");
 			}
-			if(i%5==0) {
+			else if(i%5==0) {
 				System.out.println("School");
 			}
 			else {
 				System.out.println("Hurry");
 			}
 		}
+		
+		System.out.println("all result good ");
 		
 		
 
