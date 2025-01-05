@@ -29,6 +29,8 @@ public class SubstringUnderCondition {
 				
 				if(str.charAt(i)==str.charAt(j)) {
 					count++;
+					
+					System.out.println(str.substring(i, j+1));
 				}
 					
 				
