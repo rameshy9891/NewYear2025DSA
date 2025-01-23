@@ -21,6 +21,8 @@ public class ChangeTheValue {
 		num1=num2;
 		num2=temp;
 		
+		System.out.println();
+		
 		System.out.print(num1 +" -- "+num2);
 		
 	}
