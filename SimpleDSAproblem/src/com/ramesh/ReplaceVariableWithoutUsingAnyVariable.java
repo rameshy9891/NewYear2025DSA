@@ -31,6 +31,12 @@ public class ReplaceVariableWithoutUsingAnyVariable {
 		
 		System.out.print(b+" "+a);
 		
+System.out.print(a+" "+b);
+		
+		System.out.println();
+		
+		System.out.print(b+" "+a);
+		
 		
 
 	}
